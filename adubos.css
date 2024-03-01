@@ -1,0 +1,50 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto;
+    height: 607px;
+}
+
+body{
+    background-color: lightseagreen;
+    border: 0;
+}
+
+.sessaop{
+    margin-top: 300px;
+    height: 300px;
+   
+}
+
+.btn{
+    border-color: lightseagreen;
+    transition: 0.5ms;
+}
+
+.btn:hover{
+    color: lightseagreen;
+    
+    
+}
+
+
+.container-fluid{
+   animation: pipe-animation 1.5s linear;
+}
+
+
+@keyframes pipe-animation {
+    from{
+        
+        margin-left: 450px;
+    }
+    to{
+       
+        margin-left: 50px;
+    }
+}
+
+.produtos{
+    padding: 20px;
+}

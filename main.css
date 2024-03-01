@@ -1,0 +1,45 @@
+
+body{
+    background-image: url('img/colheita-de-trigo-em-prado-tranquilo-ao-por-do-sol-gerado-por-ia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+.banner h1{
+    font-size: 4em;
+    color: yellow;
+    margin: auto;
+    
+}
+    
+
+
+.banner h1 span{
+    color: white;
+}
+
+.banner h1 i{
+    color: yellow;
+    
+}
+
+nav ul li a {
+    color: lightgreen;
+}
+
+
+.container-fluid{
+    margin-left: 480px;
+}
+
+h4{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
